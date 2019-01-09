@@ -13,4 +13,6 @@ Since, there are two observatories and we would want our plots to have the same 
 - it can take a source list and do either or both
 
 `cadencer.py` uses regex to match filenames and directory names and extracts MJDs from it. 
+
+
 _regex is so cool : J\d{4}[+-]\d{2,4}[AB]*[_.](\d{5})\S*[prof,tim]*_

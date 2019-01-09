@@ -1,5 +1,5 @@
 # Edit this file to your liking!
-# don't take the function signature tho
+# don't change the function signature tho
 import matplotlib.pyplot as plt
 def Plotter(mj,obs='gmrt',fname='cadence.png'):
         inpta = mj.keys()

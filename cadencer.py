@@ -14,7 +14,7 @@ parser.add_argument("-o","--obs", choices=['gmrt','ort'], help='Observatory name
 parser.add_argument("--plot", help='Plot filename')
 args = parser.parse_args()
 #####
-p = re.compile('J\d{4}[+-]\d{2,4}[AB]*[_.](\d{5})\S*[prof,tim]*')
+p = re.compile('J\d{4}[+-]\d{2,4}[AB]*[_.](\d{5})\S*[prof,tim,fits]*')
 def xMJD(x):
         ret = []
         for ix in x:
